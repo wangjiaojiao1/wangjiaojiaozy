@@ -22,13 +22,17 @@
 	line-height:60px;
 	text-align:center;
 	color:#323232;
-	font-size:15px;
+	font-size:17px;
+}
+.wjj_left ul li:hover{
+	color:#e4365b;
+    cursor:pointer;
 }
 .wjj_right{
 	float:left;
 	margin-left:30px;
 	width:781px;
-	height:4041px;
+	height:772px;
 	margin-top:36px;
 	background:#ffffff;
 	margin-bottom:52px;
@@ -52,23 +56,24 @@
 		margin:0 auto;
 		border-bottom:4px solid #e4365b;
 }
-.wjj_right2{
-	width:553px;
-	overflow:hidden;
-	margin-left:12px;
+.tell{
+	width:746px;
+	height:636px;
+	margin-left:13px;
+	margin-top:30px;
 }
-.wjj_right2 img{
-	margin-top:32px;
+.tell p{
+	color:#585858;
+	font-size:20px;
+	margin-top:10px;
+	line-height:30px;
 	
 }
-.p1{
-	font-size:18px;
+.tell h1{
 	color:#323232;
-	margin-top:6px;
+	font-size:20px;
+	margin-top:30px;
 }
-.p2{
-	line-height:30px;
-	color:#323232;
-	font-size:18px;
+.tell img{
 	margin-top:8px;
 }
