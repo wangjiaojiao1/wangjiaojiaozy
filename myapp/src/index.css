@@ -1,0 +1,222 @@
+
+/*header*/
+.header {
+    width: 100%;
+    height: 75px;
+    background-color: #fff;
+    float: left;
+}
+
+.header .h_container {
+    width: 1440px;
+    height: 75px;
+    margin: auto;
+}
+
+.logo {
+    width: 95px;
+    height: 50px;
+    background-color: #00B7FF;
+    margin-top: 12px;
+    margin-left: 120px;
+    float: left;
+}
+
+.menus {
+    width: 1008px;
+    float: right;
+    height: 75px;
+    margin-right: 120px;
+}
+
+.menus li {
+    float: left;
+    font-size: 18px;
+    width: 126px;
+    text-align: center;
+    height: 73px;
+    line-height: 73px;
+}
+
+.menus_a:hover {
+    color: #E7355C
+}
+
+.menus_a {
+    color: #323232;
+}
+
+.cur {
+    background: #E7355C;
+}
+
+.cur_a {
+    color: #ffffff;
+}
+
+.sanjiao {
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 7px solid #323232;
+    position: relative;
+    top: 15px;
+}
+
+/*下拉菜单*/
+.sub {
+    width: 144px;
+    height: auto;
+    position: relative;
+    z-index: 9999;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.sub a {
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+    color: white;
+}
+
+/*footer*/
+.footer-out {
+    width: 100%;
+    height: 420px;
+    background-image: url("./imgs/contactbg.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+}
+
+.footcontact {
+    width: 1020px;
+    height: 399px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.footcontact .title {
+    width: 100%;
+    padding-top: 18px;
+    height: 48px;
+    font-size: 30px;
+    text-align: center;
+    color: #ffffff;
+    float: left;
+}
+
+.footcontact .xiaoqu {
+    height: 156px;
+    width: 720px;
+    float: left;
+}
+
+.footcontact .xiaoqu li {
+    float: left;
+    width: 300px;
+    text-align: center;
+
+}
+
+.footcontact .xiaoqu li span, .footcontact .xiaoqu li b {
+    display: block;
+}
+
+.footcontact .xiaoqu li .name {
+    font-size: 16.8px;
+    color: #ffffff;
+    height: 24px;
+}
+
+.footcontact .xiaoqu li .add {
+    font-size: 13.2px;
+    color: #858585;
+    height: 48px;
+}
+
+.footcontact .xiaoqu li .tel {
+    font-size: 24px;
+    font-weight: bold;
+    color: #E7355C;
+}
+
+.footcontact .xiaoqu li .tel span {
+    display: inline;
+    margin-right: 6px;
+}
+
+.footcontact .xiaoqu li.cq {
+    width: 240px;
+    float: right;
+}
+
+.footcontact .sharebox {
+    width: 100%;
+    font-size: 28px;
+    text-align: center;
+    height: 96px;
+    float: left;
+}
+
+.footcontact .sharebox a {
+    display: inline-table;
+    width: 19px;
+    height: 19px;
+    background: #323232;
+    margin: 0 6px;
+    border-radius: 9px;
+}
+
+.footcontact .sharebox a div {
+    display: none;
+}
+
+.footcontact .sharebox a:hover div {
+    width: 150px;
+    height: 150px;
+    display: block;
+}
+
+.footcontact .sharebox a.wx:hover {
+    background: #7FD13E;
+    color: #ffffff;
+}
+
+.footcontact .sharebox a.wb:hover {
+    background: #EB4545;
+    color: #ffffff;
+}
+
+.footcontact .sharebox a.zh:hover {
+    background: #47ABDD;
+    color: #ffffff;
+}
+
+.footcontact .botmenu {
+    width: 100%;
+    height: 22px;
+    text-align: center;
+    font-size: 15px;
+    float: left;
+}
+
+.footcontact .botmenu a {
+    maring: 0 6px;
+}
+
+.footercopy {
+    width: 100%;
+    height: 43px;
+    line-height: 43px;
+    text-align: center;
+    background: #000000;
+    color: #ffffff;
+    font-size: 14px;
+    float: left;
+}
+
