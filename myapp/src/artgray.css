@@ -3,7 +3,7 @@
 	overflow:hidden;
 	background:#F4F4F4;
 }
-.wjj_left{
+.wjj_left_artgray{
 	float:left;
 	width:187px;
 	height:366px;
@@ -11,11 +11,11 @@
 	margin-left:174px;
 	margin-top:36px;
 }
-.wjj_left ul{
+.wjj_left_artgray ul{
 	width:100%;
 	height:366px;
 }
-.wjj_left ul li{
+.wjj_left_artgray ul li{
 	width:100%;
 	height:60px;
 	border:1px solid #f5f5f5;
@@ -24,7 +24,18 @@
 	color:#323232;
 	font-size:17px;
 }
-.wjj_right{
+.wjj_left_artgray ul li p{
+	width:5px;
+	height:55px;
+	float:left;
+	background:#e4365b;
+	display:inline-block;
+}
+.wjj_left_artgray ul li:hover{
+	color:#e4365b;
+    cursor:pointer;
+}
+.wjj_right_artgray{
 	float:left;
 	margin-left:30px;
 	width:781px;

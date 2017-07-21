@@ -8,11 +8,11 @@ class AboutEBSNO extends Component {
     render() {
         return (
             <div className="wjj_box">
-                <div className="wjj_left">
+                <div className="wjj_left_about">
                    <ul>
                       <li>我们的教师</li>
                       <li>我们的学员</li>
-                      <li>关于EBSNO</li>
+                      <li><p></p>关于EBSNO</li>
                       <li>我们的团队</li>
                       <li>艺术工作室</li>
                       <li>联系我们</li>

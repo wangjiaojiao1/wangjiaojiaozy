@@ -9,17 +9,17 @@ class Team extends Component {
     render() {
         return (
             <div className="wjj_box">
-                <div className="wjj_left">
+                <div className="wjj_left_team">
                    <ul>
                       <li>我们的教师</li>
                       <li>我们的学员</li>
                       <li>关于EBSNO</li>
-                      <li>我们的团队</li>
+                      <li><p></p>我们的团队</li>
                       <li>艺术工作室</li>
                       <li>联系我们</li>
                    </ul>
                 </div>
-                <div className="wjj_right">
+                <div className="wjj_right_team">
                     <div className="about">
                         <p>关于EBSNO</p>
                     </div>  

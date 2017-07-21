@@ -10,17 +10,17 @@ class Contact extends Component {
     render() {
         return (
             <div className="wjj_box">
-                <div className="wjj_left">
+                <div className="wjj_left_we">
                    <ul>
                       <li>我们的教师</li>
                       <li>我们的学员</li>
                       <li>关于EBSNO</li>
                       <li>我们的团队</li>
                       <li>艺术工作室</li>
-                      <li><span></span>联系我们</li>
+                      <li><p></p>联系我们</li>
                    </ul>
                 </div>
-                <div className="wjj_right">
+                <div className="wjj_right_we">
                     <div className="about">
                         <p>联系我们</p>
                     </div>  
